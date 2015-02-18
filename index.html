@@ -1,0 +1,83 @@
+<!Doctype html> 
+
+<html>
+<head>
+	<title>Snow Checker</title>
+
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900|Lobster|Life+Savers:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<header>
+		<div class="header-top" id="page-title">
+			<h1>Welcome to:</h1>
+			<h2>Snow Checker</h2>
+		</div>
+	</header> 
+
+	<div id="intro">
+		<h2>Hey there...off skiing soon? worried about the amount how much snow you're going to get? Search your resort below to get the latest pictures from your location and see for yourself! </h2>
+
+	</div>
+
+	<div id="content-wrapper">
+		<div id="search-nav-wrapper">
+			<div class="searchBox">
+				<form>
+					<fieldset>
+						<label>Start your search here</label>
+						<input type="text" value="" id="location-search" name="locationInput" placeholder="Example: Tignes"> <!--  Look into html5 forms so you can save user data to change the 'top picks' -->
+					</fieldset>
+				</form>	
+			</div>
+
+			<!-- Responsive navagation Menu - Needs to be dynamic based on input from users below-->
+			<div class="navMenu"> 
+				<h3>OR Select from our list of popular locations</h3>
+				<nav>
+					<ul class="places">
+						<li data-name="Tignes" data-location="215849702">Tignes</li>
+						<li data-name="Val Claret"data-location="337431250">Val Claret</li>
+						<li data-name="Courchevel" data-location="500124777">Courchevel</li>
+						<li data-name="Val d'Isere" data-location="250557297">Val d'Isere</li>
+						<li data-name="Meribel" data-location="4082746">Meribel</li>
+						<li data-name="Avoriaz" data-location="196516904">Avoriaz</li>
+					</ul>
+				</nav>
+			</div> 
+		</div>
+
+		<div id="instafeed"></div>
+	</div>	
+
+
+	<span id="storyButton">
+		<button>Story</button>
+	</span>
+	<div id="story">
+		<p> The idea for this site began with a miserbale, 10 day trip to a ski resort in Italy. Weeks leading up to the trip i'd been checking various 'snow report' sites for snow depths, latests webcam shots and any information I could find to reasure me there was some snow. All the sites told a different a story and it was hard to tell what was really going up there in the mountains. Need less to say when i arrived there was no snow and I had the spend the next 10 days finding ways to ...tbc </p>	
+	</div>
+
+	<footer>
+		<a id="footer-link" href="#header-top">To the top!</a>
+		<p id="footer-name"> @WillettLuke </p>
+		<p id="footer-date"> 2015 </p>
+		<span class="icon-instagram"></span>
+		<a id="footer-insta" href="http://instafeedjs.com/" target="_blank	">Instafeed.js</a>
+	</footer>
+
+
+	<script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+</html>
+
+<!-- To Do: 
+Make 'To the top button work'
+Get Fade working properly on the page. 
+Host somewhere
+Sort out Mobile and Tablet styling/breakpoints. -->
