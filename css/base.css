@@ -177,7 +177,7 @@ li:hover {
 
 #story {
 	border-top: 20px solid rgb(37,68,76);
-	margin-top: 
+	background-color: rgb(255,255,255);
 }
 
 #story p {
@@ -231,6 +231,8 @@ footer span {
 	float: right;
 	text-decoration: none;
 }
+
+
 
 /*mobile styling*/
 @media screen and (max-width: 500px) {
